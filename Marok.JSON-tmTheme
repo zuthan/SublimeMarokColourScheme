@@ -265,7 +265,6 @@
             "name": "Markup: Heading",
             "scope": "markup.heading, markup.heading entity",
             "settings": {
-                "fontStyle": "",
                 "fontStyle": "bold",
                 "foreground": "#DE0361"
             }
@@ -318,6 +317,106 @@
             "settings": {
                 "background": "#751012",
                 "fontStyle": ""
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": "comments.ahk",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#888888"
+            }
+        },
+        {
+            "name": "Operators1",
+            "scope": "operators1.ahk",
+            "settings": {
+                "foreground": "#FF0000"
+            }
+        },
+        {
+            "name": "Operators2",
+            "scope": "operators2.ahk",
+            "settings": {
+                "foreground": "#FF0082"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": "strings.ahk",
+            "settings": {
+                "foreground": "#148714"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": "numbers.ahk",
+            "settings": {
+                "foreground": "#55AF55"
+            }
+        },
+        {
+            "name": "BuiltIn Variables",
+            "scope": "builtin.vars.ahk",
+            "settings": {
+                "foreground": "#5FF564"
+            }
+        },
+        {
+            "name": "Flow of control",
+            "scope": "flow.ahk",
+            "settings": {
+                "foreground": "#E17300"
+            }
+        },
+        {
+            "name": "BuiltIn Functions",
+            "scope": "builtin.functions.ahk",
+            "settings": {
+                "foreground": "#00B9FF"
+            }
+        },
+        {
+            "name": "User Defined Function",
+            "scope": "udf.ahk",
+            "settings": {
+                "foreground": "#7851C3"
+            }
+        },
+        {
+            "name": "Commands",
+            "scope": "commands.ahk",
+            "settings": {
+                "foreground": "#4466FF"
+            }
+        },
+        {
+            "name": "Specials",
+            "scope": "specials.ahk",
+            "settings": {
+                "foreground": "#1E7382"
+            }
+        },
+        {
+            "name": "Directives",
+            "scope": "directives.ahk",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#FF0000"
+            }
+        },
+        {
+            "name": "Keys, Buttons",
+            "scope": "keys.buttons.ahk",
+            "settings": {
+                "foreground": "#FACD32"
+            }
+        },
+        {
+            "name": "Label, Hotkeys",
+            "scope": "labels.hotkeys.ahk",
+            "settings": {
+                "foreground": "#FF5578"
             }
         }
     ],

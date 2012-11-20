@@ -373,6 +373,8 @@
 				<string>#E6DB74</string>
 			</dict>
 		</dict>
+
+		<!-- MARKUP -->
 		<dict>
 			<key>name</key>
 			<string>Markup: Italic</string>
@@ -496,6 +498,8 @@
 				<string>#60A633</string>
 			</dict>
 		</dict>
+		<!-- /MARKUP -->
+
 		<dict>
 			<key>name</key>
 			<string>Log Entry</string>
@@ -522,6 +526,181 @@
 				<string></string>
 			</dict>
 		</dict>
+
+		<!-- AUTOHOTKEY -->
+    <dict>
+        <key>name</key>
+        <string>Comments</string>
+        <key>scope</key>
+        <string>comments.ahk</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#888888</string>
+            <key>fontStyle</key>
+            <string>italic</string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Operators1</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#FF0000</string>
+        </dict>
+        <key>scope</key>
+        <string>operators1.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Operators2</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#FF0082</string>
+        </dict>
+        <key>scope</key>
+        <string>operators2.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Strings</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#148714</string>
+        </dict>
+        <key>scope</key>
+        <string>strings.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Numbers</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#55AF55</string>
+        </dict>
+        <key>scope</key>
+        <string>numbers.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>BuiltIn Variables</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#5FF564</string>
+        </dict>
+        <key>scope</key>
+        <string>builtin.vars.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Flow of control</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#E17300</string>
+        </dict>
+        <key>scope</key>
+        <string>flow.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>BuiltIn Functions</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#00B9FF</string>
+        </dict>
+        <key>scope</key>
+        <string>builtin.functions.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>User Defined Function</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#7851C3</string>
+        </dict>
+        <key>scope</key>
+        <string>udf.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Commands</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#4466FF</string>
+        </dict>
+        <key>scope</key>
+        <string>commands.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Specials</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#1E7382</string>
+        </dict>
+        <key>scope</key>
+        <string>specials.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Directives</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#FF0000</string>
+            <key>fontStyle</key>
+            <string>italic</string>
+        </dict>
+        <key>scope</key>
+        <string>directives.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Keys, Buttons</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#FACD32</string>
+        </dict>
+        <key>scope</key>
+        <string>keys.buttons.ahk</string>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Label, Hotkeys</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#FF5578</string>
+        </dict>
+        <key>scope</key>
+        <string>labels.hotkeys.ahk</string>
+    </dict>
+		<!-- /AUTOHOTKEY -->
+
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-8DED-739FC5964FE1</string>
